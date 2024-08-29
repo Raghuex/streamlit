@@ -24,4 +24,4 @@ with st.expander('Data visualization'):
 # SideBar
 with st.sidebar:
   st.header('Input features')
-  
+  st.selectbox('Island', ('Biscoe', 'Dream', 'Torgersen'))
